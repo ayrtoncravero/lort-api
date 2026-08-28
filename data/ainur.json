@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Eru Iluvatar",
+    "type": "creator",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 2,
+    "name": "Manwe",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 3,
+    "name": "Varda",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 4,
+    "name": "Ulmo",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 5,
+    "name": "Aule",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 6,
+    "name": "Yavanna",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 7,
+    "name": "Namo",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 8,
+    "name": "Nienna",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 9,
+    "name": "Orome",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 10,
+    "name": "Tulkas",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 11,
+    "name": "Melkor",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 12,
+    "name": "Gandalf",
+    "type": "Maia",
+    "characterId": 2,
+    "wikiUrl": null
+  },
+  {
+    "id": 13,
+    "name": "Saruman",
+    "type": "Maia",
+    "characterId": 15,
+    "wikiUrl": null
+  },
+  {
+    "id": 14,
+    "name": "Sauron",
+    "type": "Maia",
+    "characterId": 14,
+    "wikiUrl": null
+  },
+  {
+    "id": 15,
+    "name": "Radagast",
+    "type": "Maia",
+    "characterId": 32,
+    "wikiUrl": null
+  },
+  {
+    "id": 16,
+    "name": "Melian",
+    "type": "Maia",
+    "characterId": 46,
+    "wikiUrl": null
+  },
+  {
+    "id": 17,
+    "name": "Vaire",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 18,
+    "name": "Este",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 19,
+    "name": "Irmo",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 20,
+    "name": "Nessa",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 21,
+    "name": "Vana",
+    "type": "Vala",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 22,
+    "name": "Gothmog",
+    "type": "Maia",
+    "characterId": null,
+    "wikiUrl": null
+  },
+  {
+    "id": 23,
+    "name": "Ungoliant",
+    "type": "Maia",
+    "characterId": null,
+    "wikiUrl": null
+  }
+]

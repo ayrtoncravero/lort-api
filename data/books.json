@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "The Hobbit", "author": "J.R.R. Tolkien", "releaseYear": 1937 },
+  { "id": 2, "name": "The Fellowship of the Ring", "author": "J.R.R. Tolkien", "releaseYear": 1954 },
+  { "id": 3, "name": "The Two Towers", "author": "J.R.R. Tolkien", "releaseYear": 1954 },
+  { "id": 4, "name": "The Return of the King", "author": "J.R.R. Tolkien", "releaseYear": 1955 },
+  { "id": 5, "name": "The Silmarillion", "author": "J.R.R. Tolkien", "releaseYear": 1977 }
+]

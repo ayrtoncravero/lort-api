@@ -1,0 +1,662 @@
+{
+  "entityType": "character",
+  "schemaNote": "Internal repository metadata. NOT part of the public API response, NOT referenced by JsonDataLoader or any runtime code, NOT in explorerConfig.ts, NOT in Swagger, NOT in any DTO or controller. See docs/PROVENANCE-001.md.",
+  "entities": [
+    {
+      "entityId": 1,
+      "entityIdStatus": "final",
+      "name": "Frodo Baggins",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Frodo_Baggins",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 2,
+      "entityIdStatus": "final",
+      "name": "Gandalf",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Gandalf",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 3,
+      "entityIdStatus": "final",
+      "name": "Aragorn II Elessar",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Aragorn_II_Elessar",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 4,
+      "entityIdStatus": "final",
+      "name": "Legolas",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Legolas",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 5,
+      "entityIdStatus": "final",
+      "name": "Gimli",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Gimli",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 6,
+      "entityIdStatus": "final",
+      "name": "Samwise Gamgee",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Samwise_Gamgee",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 7,
+      "entityIdStatus": "final",
+      "name": "Galadriel",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Galadriel",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 8,
+      "entityIdStatus": "final",
+      "name": "Boromir",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Boromir",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 9,
+      "entityIdStatus": "final",
+      "name": "Meriadoc Brandybuck",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Meriadoc_Brandybuck",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 10,
+      "entityIdStatus": "final",
+      "name": "Peregrin Took",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Peregrin_Took",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 11,
+      "entityIdStatus": "final",
+      "name": "Arwen",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Arwen",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 12,
+      "entityIdStatus": "final",
+      "name": "Elrond",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Elrond",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 13,
+      "entityIdStatus": "final",
+      "name": "Bilbo Baggins",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Bilbo_Baggins",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 14,
+      "entityIdStatus": "final",
+      "name": "Sauron",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Sauron",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 15,
+      "entityIdStatus": "final",
+      "name": "Saruman",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Saruman",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 16,
+      "entityIdStatus": "final",
+      "name": "Eowyn",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Eowyn",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 17,
+      "entityIdStatus": "final",
+      "name": "Faramir",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Faramir",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 18,
+      "entityIdStatus": "final",
+      "name": "Theoden",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Theoden",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 19,
+      "entityIdStatus": "final",
+      "name": "Gollum",
+      "sources": [
+        {
+          "name": "Fandom LOTR Wiki (lotr.fandom.com)",
+          "url": "https://lotr.fandom.com/wiki/Gollum",
+          "confidence": "MEDIUM",
+          "notes": "Only field-level source currently on record for this pre-existing character is its wikiUrl. The original sourcing for name/race/gender/birth/death/hair/realm/spouse values predates this provenance system and is not independently re-established here. Provenance not established retroactively for individual field values beyond the linked wiki page; not inventing history per instructions."
+        }
+      ]
+    },
+    {
+      "entityId": 20,
+      "entityIdStatus": "final",
+      "name": "Thorin Oakenshield",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 20 to final id 20 at insertion (CHARACTERS-DATASET-001.md). Dates (TA 2746 / TA 2941) cross-corroborated across multiple secondary sources in CHARACTERS-CANDIDATES-001.md pass. Direct WebFetch to tolkiengateway.net returned HTTP 403 in that pass; sourced via search-result synthesis, not a direct page fetch. wikiUrl left null in the public dataset — no verified page fetched."
+        }
+      ]
+    },
+    {
+      "entityId": 21,
+      "entityIdStatus": "final",
+      "name": "Denethor II",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 21 to final id 21 at insertion. Wife (Finduilas) not independently corroborated -> spouse inserted as null, not backfilled from this note."
+        }
+      ]
+    },
+    {
+      "entityId": 22,
+      "entityIdStatus": "final",
+      "name": "Éomer",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 22 to final id 22 at insertion. Wife (Lothíriel) not corroborated -> spouse inserted as null."
+        }
+      ]
+    },
+    {
+      "entityId": 23,
+      "entityIdStatus": "final",
+      "name": "Elendil",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 23 to final id 23 at insertion. Second Age figure; introduces SA era notation, first time in the live dataset. Race normalized to plain \"Human\" for consistency with existing dataset convention (dataset does not use sub-race qualifiers)."
+        }
+      ]
+    },
+    {
+      "entityId": 24,
+      "entityIdStatus": "final",
+      "name": "Isildur",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 24 to final id 24 at insertion. Death year (TA 2) held consistent across DATASET-RESEARCH-001.md and CHARACTERS-CANDIDATES-001.md."
+        }
+      ]
+    },
+    {
+      "entityId": 25,
+      "entityIdStatus": "final",
+      "name": "Celeborn",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 25 to final id 25 at insertion. spouse set to \"Galadriel\" mirroring existing Galadriel (id 7) record's spouse: \"Celeborn\" free-text string — still two independent strings, not a structural relation (documented structural gap, CHARACTER-SCHEMA-REVIEW-001.md §4). death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 26,
+      "entityIdStatus": "final",
+      "name": "Thranduil",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 26 to final id 26 at insertion. Documented as MEDIUM-HIGH in CHARACTERS-CANDIDATES-001.md; normalized down to MEDIUM (three-level schema, conservative rounding). Birth/death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 27,
+      "entityIdStatus": "final",
+      "name": "Bard the Bowman",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 27 to final id 27 at insertion. Precise birth/death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 28,
+      "entityIdStatus": "final",
+      "name": "Balin",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 28 to final id 28 at insertion. Documented as MEDIUM-HIGH in CHARACTERS-CANDIDATES-001.md; normalized down to MEDIUM. Birth year (TA 2763) is a SOURCE CLAIM not independently re-verified."
+        }
+      ]
+    },
+    {
+      "entityId": 29,
+      "entityIdStatus": "final",
+      "name": "Fili",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 29 to final id 29 at insertion. Thorin's Company member; Battle of the Five Armies context."
+        }
+      ]
+    },
+    {
+      "entityId": 30,
+      "entityIdStatus": "final",
+      "name": "Kili",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 30 to final id 30 at insertion. Thorin's Company member; same battle/context as Fili."
+        }
+      ]
+    },
+    {
+      "entityId": 31,
+      "entityIdStatus": "final",
+      "name": "Dwalin",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 31 to final id 31 at insertion. Death year not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 32,
+      "entityIdStatus": "final",
+      "name": "Radagast",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 32 to final id 32 at insertion. Ainur special entity (Istar); race: \"Maia\", consistent with existing Gandalf(2)/Saruman(15) pattern -- Model B, no separate resource, no duplicate identity. Realm/death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 33,
+      "entityIdStatus": "final",
+      "name": "Círdan",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 34 to final id 33 at insertion (id renumbered — original document's provisional 34 does not match final sequential id). Birth/death imprecise -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 34,
+      "entityIdStatus": "final",
+      "name": "Gríma Wormtongue",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 36 to final id 34 at insertion (id renumbered). Birth not established -> null. Death year (FO 3, approx.) was hedged as approximate/not independently re-verified in the research pass -> inserted as null rather than presenting an approximation as fact."
+        }
+      ]
+    },
+    {
+      "entityId": 35,
+      "entityIdStatus": "final",
+      "name": "Barliman Butterbur",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 38 to final id 35 at insertion (id renumbered). Birth/death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 36,
+      "entityIdStatus": "final",
+      "name": "Elrohir",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 39 to final id 36 at insertion (id renumbered). Birth year (TA 130) is a SOURCE CLAIM not independently re-verified. Twin of id 37; death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 37,
+      "entityIdStatus": "final",
+      "name": "Elladan",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 40 to final id 37 at insertion (id renumbered). Same caveat as Elrohir (36): birth year is a SOURCE CLAIM, twin dates, death not established -> null."
+        }
+      ]
+    },
+    {
+      "entityId": 38,
+      "entityIdStatus": "final",
+      "name": "Anárion",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via search-result synthesis — direct WebFetch to tolkiengateway.net returned HTTP 403 during CHARACTERS-CANDIDATES-001.md research)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 41 to final id 38 at insertion (id renumbered). Documented as MEDIUM-HIGH in CHARACTERS-CANDIDATES-001.md; normalized down to MEDIUM."
+        }
+      ]
+    },
+    {
+      "entityId": 39,
+      "entityIdStatus": "final",
+      "name": "Elros",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": "https://tolkiengateway.net/wiki/Elros",
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 42 to final id 39 at insertion (id renumbered). Reign length (410 years) and death year (SA 442) cross-corroborated across multiple search results in CHARACTERS-CANDIDATES-002.md pass; URL not independently re-fetched line-by-line at insertion time -> URL retained in provenance for future verification but public dataset wikiUrl set to null (not verified live in this task). race: \"Human\" in the public dataset reflects Elros's chosen mortal fate, modeled for internal consistency with existing Elrond (id 12, race: \"Elf\") precedent per CHARACTER-SCHEMA-REVIEW-001.md §8 -- documented as a modeling choice (INFERENCE), not asserted as settled canon. Canonical name shortened from \"Elros (Tar-Minyatur)\" to \"Elros\" to match the existing dataset's plain-given-name convention (cf. \"Aragorn II Elessar\" being the exception, not the rule, for hobbits/elves/dwarves which use single names)."
+        }
+      ]
+    },
+    {
+      "entityId": 40,
+      "entityIdStatus": "final",
+      "name": "Ar-Pharazôn",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 43 to final id 40 at insertion (id renumbered). UNRESOLVED SOURCE CONFLICT, preserved not averaged: search results returned both SA 3319 and SA 3310 for the Downfall/his death year in CHARACTERS-CANDIDATES-002.md pass -> death inserted as null in the public dataset rather than picking one; confidence held at MEDIUM because of this conflict."
+        }
+      ]
+    },
+    {
+      "entityId": 41,
+      "entityIdStatus": "final",
+      "name": "Tar-Míriel",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 44 to final id 41 at insertion (id renumbered). Same SA 3319 vs SA 3310 unresolved date conflict as Ar-Pharazôn (40) -> death inserted as null. Alias \"Ar-Zimraphel\"/\"Tar-Zimraphel\" documented as the same individual, not a separate record."
+        }
+      ]
+    },
+    {
+      "entityId": 42,
+      "entityIdStatus": "final",
+      "name": "Finrod Felagund",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 45 to final id 42 at insertion (id renumbered). Uncle-of-Galadriel (id 7) genealogy claim is SOURCE CLAIM, not independently re-verified -> not encoded in any field (schema has no relation field). Birth/death recorded only at era granularity (\"Years of the Trees\" / \"First Age\") since no exact year was established in the reviewed sources — consistent with existing Elrond (id 12) precedent of era-only values."
+        }
+      ]
+    },
+    {
+      "entityId": 43,
+      "entityIdStatus": "final",
+      "name": "Turgon",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 46 to final id 43 at insertion (id renumbered). Documented as MEDIUM-HIGH in CHARACTERS-CANDIDATES-002.md; normalized down to MEDIUM. Era-only birth/death, same rationale as Finrod Felagund (42)."
+        }
+      ]
+    },
+    {
+      "entityId": 44,
+      "entityIdStatus": "final",
+      "name": "Idril",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 47 to final id 44 at insertion (id renumbered). Documented as MEDIUM-HIGH in CHARACTERS-CANDIDATES-002.md; normalized down to MEDIUM. death inserted as null: departed Middle-earth over the Sea with Tuor (45), not a conventional death, and no exact date was established -- SOURCE CLAIM, not encoded as a fabricated death value. spouse set to \"Tuor\", mirroring Tuor's own spouse: \"Idril\" entry -- same free-text, non-relational pattern as other spouse pairs in this dataset. Canonical name shortened from \"Idril (Celebrindal)\" to \"Idril\" for naming-convention consistency."
+        }
+      ]
+    },
+    {
+      "entityId": 45,
+      "entityIdStatus": "final",
+      "name": "Tuor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 48 to final id 45 at insertion (id renumbered). Documented as MEDIUM-HIGH in CHARACTERS-CANDIDATES-002.md; normalized down to MEDIUM. Same death-field semantic strain as Idril (44) -> null. \"Granted a form of elvish immortality\" is SOURCE CLAIM, not independently re-verified, and not encoded in any field."
+        }
+      ]
+    },
+    {
+      "entityId": 46,
+      "entityIdStatus": "final",
+      "name": "Melian",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 49 to final id 46 at insertion (id renumbered). Ainur special entity (Maia); race: \"Maia\", consistent with existing Gandalf(2)/Sauron(14)/Saruman(15) and Radagast(32) pattern -- Model B, no separate resource, no duplicate identity. spouse field set to \"Elu Thingol\", who has no Character record in this dataset -- dangling free-text reference, documented not resolved (same structural pattern as Celeborn/Galadriel); this mirrors the existing dataset's own tolerance for spouse values with no corresponding record (e.g. Samwise's spouse \"Rosie Cotton\"). birth: \"Before Arda\", mirroring the existing precedent already live for Gandalf/Sauron/Saruman/Radagast (same Ainur category). death: null, since 'returned to Valinor' is not a conventional death and no date is established."
+        }
+      ]
+    },
+    {
+      "entityId": 47,
+      "entityIdStatus": "final",
+      "name": "Fingolfin",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": "https://tolkiengateway.net/wiki/Fingolfin",
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 50 to final id 47 at insertion (id renumbered). First High King of the Noldor in Beleriand; died in single combat with Morgoth at the end of the Dagor Bragollach (SOURCE CLAIM, Tolkien Gateway). realm inserted as null: no single named seat corresponds cleanly to 'High King of the Noldor' the way a city name does for other realm values in this dataset -- INFERENCE, not resolved by CHARACTERS-CANDIDATES-003.md, carried forward as null rather than inventing a realm string. wikiUrl retained here for future verification; public dataset field set to null since the page was not independently re-fetched and confirmed at insertion time."
+        }
+      ]
+    },
+    {
+      "entityId": 48,
+      "entityIdStatus": "final",
+      "name": "Fingon",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": "https://tolkiengateway.net/wiki/Fingon",
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 51 to final id 48 at insertion (id renumbered). Succeeded Fingolfin (47) as High King; died in the Nirnaeth Arnoediad, killed by the Balrog Gothmog (SOURCE CLAIM). Son of Fingolfin (47) -- not encoded in any field, schema has no relation field. Same realm-field caveat as Fingolfin -> null. Exact birth year not established -> null; death recorded at era granularity only (\"First Age\")."
+        }
+      ]
+    },
+    {
+      "entityId": 49,
+      "entityIdStatus": "final",
+      "name": "Maedhros",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": "https://tolkiengateway.net/wiki/Maedhros",
+          "confidence": "MEDIUM",
+          "notes": "Promoted from provisional id 52 to final id 49 at insertion (id renumbered). IMPORTANT: the FA 587 death year documented in CHARACTERS-CANDIDATES-003.md is that document's OWN INFERENCE from the War of Wrath's dated span (545-587), not a directly-quoted death year in the sources consulted. Per explicit instruction not to present an inference as fact, death is inserted into the public dataset as null, not FA 587. Eldest son of Fëanor (deferred, gated candidate, not in this dataset); led the Union of Maedhros; cast himself into a fiery chasm with a Silmaril at war's end (SOURCE CLAIM). Birth year not established -> null. realm: \"Himring\" (March of Maedhros / Himring), a specific named holding, retained as-is."
+        }
+      ]
+    },
+    {
+      "entityId": 50,
+      "entityIdStatus": "final",
+      "name": "Celebrimbor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway",
+          "url": "https://tolkiengateway.net/wiki/Celebrimbor",
+          "confidence": "HIGH",
+          "notes": "Promoted from provisional id 53 to final id 50 at insertion (id renumbered). Forger of the Rings of Power (except the One); tortured and killed by Sauron in the Sack of Eregion, SA 1697, cross-corroborated across two Tolkien Gateway pages (Celebrimbor page and Sack of Eregion page). 'Grandson of Fëanor' claim is SOURCE CLAIM, not independently cross-verified against a second source -> not encoded in any field. Exact birth year not established -> null."
+        },
+        {
+          "name": "Tolkien Gateway — Sack of Eregion",
+          "url": "https://tolkiengateway.net/wiki/Sack_of_Eregion",
+          "confidence": "HIGH",
+          "notes": "Corroborates S.A. 1697 death date and circumstances (secondary corroborating source for id 50, per CHARACTERS-CANDIDATES-003.md §12)."
+        }
+      ]
+    }
+  ]
+}

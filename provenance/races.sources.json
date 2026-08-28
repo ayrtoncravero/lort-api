@@ -1,0 +1,158 @@
+{
+  "entityType": "race",
+  "schemaNote": "Internal repository metadata. NOT part of the public API response, NOT referenced by JsonDataLoader or any runtime code, NOT in explorerConfig.ts, NOT in Swagger, NOT in any DTO or controller. data/races.json exists (19 records, ids 1-19) but no Races API/controller/service/repository/DTO exists yet. See docs/RACES-DATASET-001.md, docs/RACES-CANDIDATES-001.md, docs/RACE-SCHEMA-REVIEW-001.md.",
+  "entities": [
+    {
+      "entityId": 1,
+      "entityIdStatus": "final",
+      "name": "Men",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Appendix F major race. 17 existing Characters use race: \"Human\". type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 2,
+      "entityIdStatus": "final",
+      "name": "Elves",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Appendix F major race. 16 existing Characters use race: \"Elf\". type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 3,
+      "entityIdStatus": "final",
+      "name": "Dwarves",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Appendix F major race. 6 existing Characters use race: \"Dwarf\". type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 4,
+      "entityIdStatus": "final",
+      "name": "Hobbits",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Appendix F major race. 6 existing Characters use race: \"Hobbit\". type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 5,
+      "entityIdStatus": "final",
+      "name": "Dunedain",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Subgroup of Men. Relevant to Aragorn/Boromir/Faramir/Denethor II/Elendil/Isildur/Anarion. type: subgroup, parentId: 1 (Men)." }
+      ]
+    },
+    {
+      "entityId": 6,
+      "entityIdStatus": "final",
+      "name": "Rohirrim",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Subgroup of Men. Relevant to Theoden/Eowyn/Eomer/Grima, Place Edoras. type: subgroup, parentId: 1 (Men)." }
+      ]
+    },
+    {
+      "entityId": 7,
+      "entityIdStatus": "final",
+      "name": "Noldor",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Subgroup of Elves. Relevant to Galadriel/Finrod Felagund/Fingolfin/Fingon/Maedhros/Celebrimbor. type: subgroup, parentId: 2 (Elves)." }
+      ]
+    },
+    {
+      "entityId": 8,
+      "entityIdStatus": "final",
+      "name": "Longbeards",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Durin's Folk, subgroup of Dwarves. Relevant to Thorin/Balin/Fili/Kili/Dwalin/Gimli, Places Erebor/Moria. type: subgroup, parentId: 3 (Dwarves)." }
+      ]
+    },
+    {
+      "entityId": 9,
+      "entityIdStatus": "final",
+      "name": "Ents",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "HIGH", "notes": "Appendix F race, awakened not born (conceptual caveat, RACES-CANDIDATES-001.md §1). type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 10,
+      "entityIdStatus": "final",
+      "name": "Orcs",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM-HIGH", "notes": "Appendix F race. Origin story (corrupted Elves, per one legendarium account) is a SOURCE CLAIM with documented in-universe ambiguity, not resolved. type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 11,
+      "entityIdStatus": "final",
+      "name": "Trolls",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "Appendix F race, thin per-individual data in this pass. type: major-race, parentId: null." }
+      ]
+    },
+    {
+      "entityId": 12,
+      "entityIdStatus": "final",
+      "name": "Sindar",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM-HIGH", "notes": "Subgroup of Elves. Relevant to Celeborn/Thranduil. type: subgroup, parentId: 2 (Elves)." }
+      ]
+    },
+    {
+      "entityId": 13,
+      "entityIdStatus": "final",
+      "name": "Silvan Elves",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "Subgroup of Elves. Relevant to Places Woodland Realm/Lothlorien. type: subgroup, parentId: 2 (Elves)." }
+      ]
+    },
+    {
+      "entityId": 14,
+      "entityIdStatus": "final",
+      "name": "Vanyar",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "Subgroup of Elves, Valinor-based, rarely in Middle-earth. No existing Character/Place directly tied. type: subgroup, parentId: 2 (Elves)." }
+      ]
+    },
+    {
+      "entityId": 15,
+      "entityIdStatus": "final",
+      "name": "Teleri",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "Subgroup of Elves. Sindar/Silvan both trace to Teleri lineage per legendarium (indirect relevance). type: subgroup, parentId: 2 (Elves)." }
+      ]
+    },
+    {
+      "entityId": 16,
+      "entityIdStatus": "final",
+      "name": "Harfoots",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "SOURCE CLAIM, ancestral Shire-Hobbit strain, subgroup of Hobbits. type: subgroup, parentId: 4 (Hobbits)." }
+      ]
+    },
+    {
+      "entityId": 17,
+      "entityIdStatus": "final",
+      "name": "Stoors",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "SOURCE CLAIM, associated with Smeagol/Gollum origin, subgroup of Hobbits. type: subgroup, parentId: 4 (Hobbits)." }
+      ]
+    },
+    {
+      "entityId": 18,
+      "entityIdStatus": "final",
+      "name": "Fallohides",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "SOURCE CLAIM, associated with Took/Brandybuck lines, subgroup of Hobbits. type: subgroup, parentId: 4 (Hobbits)." }
+      ]
+    },
+    {
+      "entityId": 19,
+      "entityIdStatus": "final",
+      "name": "Uruk-hai",
+      "sources": [
+        { "name": "Tolkien Gateway (via WebSearch snippet synthesis)", "url": null, "confidence": "MEDIUM", "notes": "Subgroup of Orcs, plot-relevant (Isengard/Mordor forces), no named existing Character. type: subgroup, parentId: 10 (Orcs)." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "entityType": "place",
+  "schemaNote": "Internal repository metadata. NOT part of the public API response, NOT referenced by JsonDataLoader or any runtime code, NOT in explorerConfig.ts, NOT in Swagger, NOT in any DTO or controller. data/places.json exists (41 records, ids 1-41) but no Places API/controller/service/repository/DTO exists yet. See docs/PLACES-PROVENANCE-001.md and docs/PLACES-DATASET-001.md.",
+  "entities": [
+    {
+      "entityId": 1,
+      "entityIdStatus": "final",
+      "name": "The Shire",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis — direct WebFetch to tolkiengateway.net not attempted in the PLACES-CANDIDATES-001.md pass, prior 403 precedent)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced as realm value on 6 existing Characters (Frodo/1, Sam/6, Merry/9, Pippin/10, Bilbo/13). Type candidate: realm. Region per PLACES-CANDIDATES-001.md §4: Eriador. Plausible parentId candidate: Eriador (entityId 22 in this file) — not independently confirmed as a formal containment relation, only as a co-occurring region label in the same source table; insert as null at insertion time unless separately verified."
+        }
+      ]
+    },
+    {
+      "entityId": 2,
+      "entityIdStatus": "final",
+      "name": "Gondor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced via 3 distinct existing Character realm strings (\"Gondor\", \"Arnor and Gondor\", \"Gondor and Arnor\"). CANONICAL-IDENTITY NOTE (PLACES-CANDIDATES-001.md §6): this record represents Gondor only, distinct from Arnor (entityId 3) — the compound realm strings on existing Characters would need to resolve to two Place relations, not one merged record; not resolved here, documented only. Type candidate: realm. Region: Anórien/South (not itself a candidate in this document — no parentId candidate identified; insert as null)."
+        }
+      ]
+    },
+    {
+      "entityId": 3,
+      "entityIdStatus": "final",
+      "name": "Arnor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "See Gondor (entityId 2) canonical-identity note — same underlying compound-realm-string issue. Type candidate: realm. Region per source table: Eriador. Plausible parentId candidate: Eriador (entityId 22) — same caveat as The Shire (entityId 1), not independently confirmed as formal containment."
+        }
+      ]
+    },
+    {
+      "entityId": 4,
+      "entityIdStatus": "final",
+      "name": "Rohan",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 4 existing Characters. Type candidate: realm. Region: Calenardhon (not itself a candidate — no parentId candidate identified; insert as null)."
+        }
+      ]
+    },
+    {
+      "entityId": 5,
+      "entityIdStatus": "final",
+      "name": "Mordor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Sauron/14). Type candidate: realm. Region: Southeast Middle-earth (no parentId candidate identified — top-level realm; insert as null)."
+        }
+      ]
+    },
+    {
+      "entityId": 6,
+      "entityIdStatus": "final",
+      "name": "Rivendell",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 4 existing Characters. Type candidate: settlement. Region per source table: Eriador. Plausible parentId candidate: Eriador (entityId 22) — direct settlement-in-region case, not independently confirmed as a formal containment relation beyond the shared region label."
+        }
+      ]
+    },
+    {
+      "entityId": 7,
+      "entityIdStatus": "final",
+      "name": "Lothlorien",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 2 existing Characters. CANONICAL-NAME NOTE: spelled \"Lothlorien\" (no diacritic) to match the exact existing Character.realm string, per PLACES-CANDIDATES-001.md §6, even though the candidate table itself used \"Lothlórien\". Type candidate: realm/forest. Region: Rhovanion. Plausible parentId candidate: Rhovanion (entityId 40) — not independently confirmed as formal containment."
+        }
+      ]
+    },
+    {
+      "entityId": 8,
+      "entityIdStatus": "final",
+      "name": "Erebor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 5 existing Characters. Dual nature (mountain landmark and Dwarf-kingdom) — represented as one record, type candidate: realm, per PLACES-CANDIDATES-001.md §4. Region: Northern Rhovanion. Plausible parentId candidate: Rhovanion (entityId 40) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 9,
+      "entityIdStatus": "final",
+      "name": "Isengard",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Saruman/15). Type candidate: fortress/realm. Region: Nan Curunír, west of Rohan. NOT establishing Rohan as parentId — Isengard is politically independent of Rohan in the source material despite geographic proximity; insert parentId as null, do not infer containment from adjacency alone."
+        }
+      ]
+    },
+    {
+      "entityId": 10,
+      "entityIdStatus": "final",
+      "name": "Woodland Realm",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Thranduil/26). CANONICAL-IDENTITY NOTE: \"Mirkwood\" (the forest) documented as a related but non-identical name — one record, not two, matching the exact existing Character.realm string \"Woodland Realm\". Type candidate: realm/forest. Region: Rhovanion. Plausible parentId candidate: Rhovanion (entityId 40) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 11,
+      "entityIdStatus": "final",
+      "name": "Bree",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Barliman Butterbur/35). Type candidate: settlement. Region: Bree-land, Eriador. Plausible parentId candidate: Eriador (entityId 22) — not independently confirmed as formal containment."
+        }
+      ]
+    },
+    {
+      "entityId": 12,
+      "entityIdStatus": "final",
+      "name": "Dale",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Bard the Bowman/27). Type candidate: settlement. Region: Near Erebor, Rhovanion. Plausible parentId candidate: Rhovanion (entityId 40) — not independently confirmed; a parentId of Erebor (entityId 8) was considered but not adopted, since Dale is a distinct, independently-ruled settlement, not contained within Erebor."
+        }
+      ]
+    },
+    {
+      "entityId": 13,
+      "entityIdStatus": "final",
+      "name": "Moria",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Balin/28). Type candidate: realm/underground city. Region: Misty Mountains. Plausible parentId candidate: Misty Mountains (entityId 39) — geographic containment, not independently confirmed as a formal political relation (Moria is its own dwarf-realm, not administratively part of a \"Misty Mountains\" polity)."
+        }
+      ]
+    },
+    {
+      "entityId": 14,
+      "entityIdStatus": "final",
+      "name": "Grey Havens",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Circdan/33). Type candidate: settlement/haven. Region: Lindon, west coast. Plausible parentId candidate: Lindon (entityId 38) — this is the strongest-sourced parent candidate in this file (PLACES-CANDIDATES-001.md §11 explicitly names Lindon as \"Parent-region candidate for Grey Havens\"), still not independently confirmed as a formal record-level relation."
+        }
+      ]
+    },
+    {
+      "entityId": 15,
+      "entityIdStatus": "final",
+      "name": "Eregion",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 1 existing Character (Celebrimbor/50). Second Age. Type candidate: realm. Region: West of Moria, Eriador. Plausible parentId candidate: Eriador (entityId 22) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 16,
+      "entityIdStatus": "final",
+      "name": "Numenor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Already implicitly referenced on 3 existing Characters. CANONICAL-NAME NOTE: spelled \"Numenor\" (no diacritic) to match the exact existing Character.realm string \"Númenor\" is actually used WITH diacritic in data/characters.json (Elros/39, Ar-Pharazon/40, Tar-Miriel/41 all have realm: \"Numenor\" without diacritic per CHARACTERS-DATASET-001.md — this entry preserves that exact spelling for consistency, differing from the candidate table's \"Númenor\"). Type candidate: realm/island. Region: Great Sea, west of Middle-earth. No parentId candidate identified — entirely destroyed island realm with no surviving containing region in this dataset; insert as null."
+        }
+      ]
+    },
+    {
+      "entityId": 17,
+      "entityIdStatus": "final",
+      "name": "Minas Tirith",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis, this pass's own search)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Not yet referenced by any existing Character.realm value. Capital of Gondor per this pass's WebSearch. Type candidate: settlement/fortress-city. Plausible parentId candidate: Gondor (entityId 2) — PLACES-CANDIDATES-001.md §72 explicitly calls this out as \"a direct parentId-type relation candidate if Model 2 hierarchy is adopted\"; still not independently confirmed as an inserted record-level relation, insert as null unless separately verified at insertion time."
+        }
+      ]
+    },
+    {
+      "entityId": 18,
+      "entityIdStatus": "final",
+      "name": "Osgiliath",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis, this pass's own search)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Not yet referenced by any existing Character.realm value. Former capital of Gondor per this pass's WebSearch result, ruined by the War of the Ring. Type candidate: settlement (ruined). Plausible parentId candidate: Gondor (entityId 2) — same reasoning as Minas Tirith, not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 19,
+      "entityIdStatus": "final",
+      "name": "Mount Doom",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis, this pass's own search)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Not yet referenced by any existing Character.realm value. Alternate name Orodruin, confirmed this pass as \"a volcano in Mordor\" (SOURCE CLAIM, search synthesis). Type candidate: landmark. Plausible parentId candidate: Mordor (entityId 5) — clearly established containment relation in the source material, still not independently confirmed as a formal record-level relation until actually verified/inserted."
+        }
+      ]
+    },
+    {
+      "entityId": 20,
+      "entityIdStatus": "final",
+      "name": "Helm's Deep",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis, this pass's own search)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Not yet referenced by any existing Character.realm value. CANONICAL-IDENTITY NOTE: \"Hornburg\" (the fortress within the gorge) documented as a related but distinct sub-feature, not duplicated as its own record. Type candidate: fortress. Region: White Mountains, Rohan. Plausible parentId candidate: Rohan (entityId 4) — clearly established containment, not independently confirmed as a formal record-level relation until verified/inserted."
+        }
+      ]
+    },
+    {
+      "entityId": 21,
+      "entityIdStatus": "final",
+      "name": "Beleriand",
+      "sources": [
+        {
+          "name": "Tolkien Gateway, Wikipedia (corroboration only)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Confirmed this pass via WebSearch: \"a large region in northwestern Middle-earth until the end of the First Age... destroyed and covered by the sea\" (SOURCE CLAIM). Type candidate: region (destroyed). No parentId candidate identified — top-level First Age region with no surviving container in this dataset; insert as null. Strong parent-region candidate FOR other First Age realm candidates in this file (Gondolin/22, Nargothrond/23, Doriath/24, Himring/25) — see those entries."
+        }
+      ]
+    },
+    {
+      "entityId": 22,
+      "entityIdStatus": "final",
+      "name": "Eriador",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis, this pass's own search)",
+          "url": null,
+          "confidence": "HIGH",
+          "notes": "Confirmed this pass via WebSearch: contains Arnor, Rivendell, Bree-land, the Shire; by the end of the Third Age home to Hobbits of the Shire and Men (SOURCE CLAIM, search synthesis). Type candidate: region. No parentId candidate identified — top-level Second/Third Age region; insert as null. Strong parent-region candidate FOR The Shire (1), Arnor (3), Rivendell (6), Bree (11), Eregion (15) — see those entries; the reverse relation (Eriador containing them) is not itself established as a formal record-level parentId in this document, only as a shared region label."
+        }
+      ]
+    },
+    {
+      "entityId": 23,
+      "entityIdStatus": "final",
+      "name": "Gondolin",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Already implicitly referenced on 2 existing Characters (Turgon/43, Idril/44). First Age — same era-scope consideration already deferred for the corresponding Characters. Type candidate: realm/hidden city. Region: Encircling Mountains, Beleriand. Plausible parentId candidate: Beleriand (entityId 21) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 24,
+      "entityIdStatus": "final",
+      "name": "Nargothrond",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Already implicitly referenced on 1 existing Character (Finrod Felagund/42). First Age. Type candidate: realm/hidden city. Region: Narog river, Beleriand. Plausible parentId candidate: Beleriand (entityId 21) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 25,
+      "entityIdStatus": "final",
+      "name": "Doriath",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Already implicitly referenced on 1 existing Character (Melian/46). First Age. Type candidate: realm. Region: Beleriand. Plausible parentId candidate: Beleriand (entityId 21) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 26,
+      "entityIdStatus": "final",
+      "name": "Himring",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Already implicitly referenced on 1 existing Character (Maedhros/49). First Age; thinner structured data than the other First Age realm candidates in this file. Type candidate: fortress. Region: East Beleriand. Plausible parentId candidate: Beleriand (entityId 21) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 27,
+      "entityIdStatus": "final",
+      "name": "Minas Morgul",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Not independently re-fetched/cross-checked twice in the candidates pass. Former identity Minas Ithil (captured/renamed) — documented as the same canonical entity, not a separate record, resolving to the Third Age name relevant to this dataset's LOTR-era scope. Notable resident association: Witch-king of Angmar, a DEFERRED Character (not in data/characters.json — see CHARACTERS-DATASET-001.md). Type candidate: settlement/fortress. Region: Ephel Duath, near Mordor. Plausible parentId candidate: Mordor (entityId 5) — geographically adjacent, politically ambiguous (formerly a Gondor outpost, later under Sauron's dominion); not independently confirmed, insert as null unless verified."
+        }
+      ]
+    },
+    {
+      "entityId": 28,
+      "entityIdStatus": "final",
+      "name": "Barad-dur",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (general legendarium knowledge, corroborated by search-result snippets only, not independently re-fetched this pass)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Never visited on-page/on-screen in the primary narrative, per general legendarium knowledge. Type candidate: fortress. Region: Mordor. Plausible parentId candidate: Mordor (entityId 5) — clearly established containment, not independently confirmed as a formal record-level relation."
+        }
+      ]
+    },
+    {
+      "entityId": 29,
+      "entityIdStatus": "final",
+      "name": "Orthanc",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Sub-location within Isengard — same \"structure within a realm\" pattern as Minas Tirith within Gondor. Resident association: Saruman, existing Character 15. Type candidate: fortress/tower. Plausible parentId candidate: Isengard (entityId 9) — clearly established containment, not independently confirmed as a formal record-level relation."
+        }
+      ]
+    },
+    {
+      "entityId": 30,
+      "entityIdStatus": "final",
+      "name": "Fangorn Forest",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Notable resident association: Treebeard, a DEFERRED Character (not in data/characters.json). Type candidate: geographic feature. Region: West of Rohan, edge of Rhovanion. Plausible parentId candidate: Rhovanion (entityId 40) — weaker than most parentId candidates in this file, geographic edge case; not independently confirmed, insert as null unless verified."
+        }
+      ]
+    },
+    {
+      "entityId": 31,
+      "entityIdStatus": "final",
+      "name": "Weathertop",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Alternate name Amon Sul (former watch-tower of Arnor), documented in this entry not as a separate record. Type candidate: landmark. Region: Eriador, on the road from the Shire to Rivendell. Plausible parentId candidate: Eriador (entityId 22) — not independently confirmed."
+        }
+      ]
+    },
+    {
+      "entityId": 32,
+      "entityIdStatus": "final",
+      "name": "Hobbiton",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Sub-location within The Shire — same pattern as Minas Tirith within Gondor. Notable resident association: Bilbo/Frodo, existing Characters 13/1. Type candidate: settlement. Plausible parentId candidate: The Shire (entityId 1) — clearly established containment, not independently confirmed as a formal record-level relation."
+        }
+      ]
+    },
+    {
+      "entityId": 33,
+      "entityIdStatus": "final",
+      "name": "Amon Hen",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Thin structured data beyond the single Fellowship-breaking scene. Type candidate: landmark. Region: Near Nen Hithoel, Anduin. No clear parentId candidate identified within this file's entity set — insert as null."
+        }
+      ]
+    },
+    {
+      "entityId": 34,
+      "entityIdStatus": "final",
+      "name": "Cirith Ungol",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Notable resident association: Shelob, a DEFERRED Character (not in data/characters.json). Type candidate: pass/landmark. Region: Border of Mordor. Plausible parentId candidate: Mordor (entityId 5) — border case, not independently confirmed, insert as null unless verified."
+        }
+      ]
+    },
+    {
+      "entityId": 35,
+      "entityIdStatus": "final",
+      "name": "Edoras",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Not yet referenced by any existing Character.realm value. Capital city of Rohan, notable structure Meduseld (Tier 3 deferred, see PLACES-CANDIDATES-001.md §8). Type candidate: settlement. Plausible parentId candidate: Rohan (entityId 4) — clearly established (capital city), not independently confirmed as a formal record-level relation."
+        }
+      ]
+    },
+    {
+      "entityId": 36,
+      "entityIdStatus": "final",
+      "name": "Ithilien",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Notable resident association: Faramir, existing Character 17. Type candidate: region. Region: East of Anduin, near Gondor/Mordor border. No clear single parentId candidate identified (borders both Gondor and Mordor) — insert as null, do not guess between the two."
+        }
+      ]
+    },
+    {
+      "entityId": 37,
+      "entityIdStatus": "final",
+      "name": "Lindon",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Contains Grey Havens (entityId 14) — see that entry's parentId note, the relation is documented from this side too for consistency. Type candidate: region. Region: West coast, remnant of Beleriand. Plausible parentId candidate: Beleriand (entityId 21) — Lindon is documented as a surviving remnant of Beleriand after its destruction; not independently confirmed as a formal record-level relation, insert as null unless verified."
+        }
+      ]
+    },
+    {
+      "entityId": 38,
+      "entityIdStatus": "final",
+      "name": "Anduin",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Major geographic feature referenced constantly across eras. Type candidate: geographic feature. Region: Central Middle-earth. No parentId candidate identified — a river spans multiple regions, not contained by any single one in this dataset; insert as null."
+        }
+      ]
+    },
+    {
+      "entityId": 39,
+      "entityIdStatus": "final",
+      "name": "Misty Mountains",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Contains Moria (entityId 13) — see that entry's parentId note. Type candidate: geographic feature. Region: Central Middle-earth. No parentId candidate identified — top-level mountain range; insert as null."
+        }
+      ]
+    },
+    {
+      "entityId": 40,
+      "entityIdStatus": "final",
+      "name": "Rhovanion",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis, this pass's own search)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Confirmed this pass via WebSearch: contains Mirkwood and Fangorn Forest (SOURCE CLAIM, one search thread, not independently cross-checked a second time). Type candidate: region. Region: East of the Misty Mountains. No parentId candidate identified — top-level Second/Third Age region; insert as null. Parent-region candidate FOR Lothlorien (7), Erebor (8), Woodland Realm (10), Dale (12), Fangorn Forest (30) — see those entries; the reverse relation is a shared region label only, not a confirmed formal record-level parentId."
+        }
+      ]
+    },
+    {
+      "entityId": 41,
+      "entityIdStatus": "final",
+      "name": "Valinor",
+      "sources": [
+        {
+          "name": "Tolkien Gateway (via WebSearch snippet synthesis)",
+          "url": null,
+          "confidence": "MEDIUM",
+          "notes": "Geographically and cosmologically distinct from Middle-earth proper — flagged in PLACES-CANDIDATES-001.md §4 as a possible schema-boundary edge case (is it a \"Place\" in the same sense as Gondor?), not resolved there or here. Destination for Frodo/Bilbo, existing Characters 1/13; home of the Valar. Type candidate: realm (outside Middle-earth). No parentId candidate identified — insert as null."
+        }
+      ]
+    }
+  ]
+}

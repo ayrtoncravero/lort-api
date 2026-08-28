@@ -1,0 +1,21 @@
+[
+  { "id": 1, "name": "Men", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 2, "name": "Elves", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 3, "name": "Dwarves", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 4, "name": "Hobbits", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 5, "name": "Dunedain", "type": "subgroup", "parentId": 1, "wikiUrl": null },
+  { "id": 6, "name": "Rohirrim", "type": "subgroup", "parentId": 1, "wikiUrl": null },
+  { "id": 7, "name": "Noldor", "type": "subgroup", "parentId": 2, "wikiUrl": null },
+  { "id": 8, "name": "Longbeards", "type": "subgroup", "parentId": 3, "wikiUrl": null },
+  { "id": 9, "name": "Ents", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 10, "name": "Orcs", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 11, "name": "Trolls", "type": "major-race", "parentId": null, "wikiUrl": null },
+  { "id": 12, "name": "Sindar", "type": "subgroup", "parentId": 2, "wikiUrl": null },
+  { "id": 13, "name": "Silvan Elves", "type": "subgroup", "parentId": 2, "wikiUrl": null },
+  { "id": 14, "name": "Vanyar", "type": "subgroup", "parentId": 2, "wikiUrl": null },
+  { "id": 15, "name": "Teleri", "type": "subgroup", "parentId": 2, "wikiUrl": null },
+  { "id": 16, "name": "Harfoots", "type": "subgroup", "parentId": 4, "wikiUrl": null },
+  { "id": 17, "name": "Stoors", "type": "subgroup", "parentId": 4, "wikiUrl": null },
+  { "id": 18, "name": "Fallohides", "type": "subgroup", "parentId": 4, "wikiUrl": null },
+  { "id": 19, "name": "Uruk-hai", "type": "subgroup", "parentId": 10, "wikiUrl": null }
+]
