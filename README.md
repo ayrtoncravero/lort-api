@@ -165,11 +165,18 @@ pnpm run validate:data
 
 - All datasets are structured/factual (names, classifications, numeric ids, relations) — no copied narrative prose or descriptions are stored.
 - `data/quotes.json` contains a small set (8) of verbatim in-universe quotes. Expanding this dataset requires legal review before more verbatim text is added; this is a factual note about the dataset, not legal advice.
-- This is a non-commercial, fan-built reference project. It is **not affiliated with the Tolkien Estate or any studio** holding rights to The Lord of the Rings.
+- Dataset sources/provenance are documented under `provenance/*.sources.json` per resource.
+- The MIT license below covers this project's original source code only — it does not transfer any rights over the Tolkien-related material (names, characters, places, quotes, books, movies) referenced in the datasets.
+
+## Disclaimer
+
+LORT is an **unofficial, non-commercial fan project**. It is not affiliated with, endorsed by, or sponsored by the Tolkien Estate, Middle-earth Enterprises, Warner Bros., or any other rights holder connected to The Lord of the Rings. All Tolkien-related names, characters, places, quotations, books, and films remain the property of their respective rights holders. This project does not claim any legal authorization from those rights holders, and nothing here should be read as a fair-use determination or legal advice.
 
 ## License
 
-`TBD` — no license has been chosen yet. `package.json` currently marks the package `UNLICENSED`.
+The original source code of this project is licensed under the [MIT License](./LICENSE) — see `LICENSE`. `package.json`'s `license` field has been updated to `MIT` to match.
+
+The MIT License applies to LORT's original code, configuration, and documentation only. It does not license or grant rights to any third-party intellectual property (Tolkien-related characters, names, places, quotations, books, or movies) referenced in this project's datasets — see "Data & legal notes" and "Disclaimer" above.
 
 ## Related project
 
