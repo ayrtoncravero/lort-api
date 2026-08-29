@@ -8,6 +8,19 @@ A developer-friendly, fan-built API concept for exploring characters, places and
 
 V1 — frozen. All resources below are implemented against static, versioned JSON datasets with entity-level provenance tracking. No database yet, no write endpoints, no map/coordinates data, no sorting.
 
+## Live API / Production
+
+- Live API → https://lort-api.vercel.app/api
+- Swagger / API Documentation → https://lort-api.vercel.app/api/docs
+- Live Demo → https://lort-app.vercel.app
+
+## Repositories
+
+LORT is made up of two repositories:
+
+- **LORT App** — Frontend (Vue/Vite)
+- **LORT API** — Backend (NestJS, this repository)
+
 ## Stack
 
 - NestJS + TypeScript
@@ -180,4 +193,4 @@ The MIT License applies to LORT's original code, configuration, and documentatio
 
 ## Related project
 
-`lort-app` — a Vue 3 / Vuetify frontend that consumes this API (separate repository/directory, not covered by this README).
+`lort-app` — a Vue 3 / Vuetify frontend that consumes this API (separate repository/directory, not covered by this README). See "Repositories" above for the live URLs.
